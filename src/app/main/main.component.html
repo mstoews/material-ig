@@ -1,0 +1,23 @@
+<div class="body">
+    <mat-tab-group>
+        <mat-tab label = "Division Costs">
+            <ag-grid-angular style="width: 600px; height: 500px;" class="ag-theme-dark"
+              [rowData]="rowData | async"
+              [columnDefs]="columnDefs"
+              rowSelection="multiple">
+            </ag-grid-angular>
+        </mat-tab>
+        <mat-tab label = "Sales Record">
+           <app-grid-data></app-grid-data>
+        </mat-tab>
+        <mat-tab label = "Division Costs">
+                <ag-grid-angular style="width: 600px; height: 500px;" class="ag-theme-dark"
+                  [rowData]="rowData | async"
+                  [columnDefs]="columnDefs"
+                  rowSelection="multiple">
+                </ag-grid-angular>
+      </mat-tab>
+      </mat-tab-group>
+</div>
+
+

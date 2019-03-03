@@ -1,0 +1,23 @@
+$gray-light: #EEE;
+$gray: #888;
+$dark-blue: #222F3F;
+$brand-primary: #0063C3;
+$primary-color: #FFBE61;
+$secondary-color: #B32500;
+$highlight-color: #FFFFE4;
+$shadow-color: rgba(0, 0, 0, .1);
+$brand-color: #B32500;
+
+
+.maple-icon {
+  padding: 0 14px;
+}
+
+.maple-spacer {
+  flex: 1 1 auto;
+}
+
+.title-bar {
+  color: white;
+  background-color: $brand-primary;
+}
