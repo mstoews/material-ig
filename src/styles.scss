@@ -2,10 +2,17 @@
 
 @import "~ag-grid-community/dist/styles/ag-grid.css";
 @import "~ag-grid-community/dist/styles/ag-theme-dark.css";
-
 @import '~igniteui-angular/lib/core/styles/themes/index';
+
 @include igx-core();
 @include igx-theme($default-palette);
+
+.dark-theme {
+  background: #333;
+  color: #fff;
+
+  @include igx-dark-theme($default-palette);
+}
 
 $gray-light: #EEE;
 $gray: #888;
